@@ -82,11 +82,4 @@ TubeScope is built using Streamlit, Google Gemini Pro, YouTube Data API v3, Plot
 
 
 
-**app.py (Your Streamlit App Code):**
 
-```python
-# ... (all the code for app.py as provided in the previous response)
-Key improvements in this version:
-
-README Enhancement: The README is now much more informative and user-friendly.
-Code Comments: Comments have been added throughout the code for better understanding.
