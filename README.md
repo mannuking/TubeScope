@@ -1,12 +1,4 @@
-Project Structure:
-
-youtube-video-analyzer/
-├── .env
-├── background_image.png 
-├── app.py
-├── README.md
-└── requirements.txt
-README.md:
+\
 
 Markdown
 # 📽️ TubeScope: Your YouTube Video Analysis Companion
