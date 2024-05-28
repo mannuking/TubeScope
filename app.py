@@ -241,7 +241,7 @@ def add_bg_from_local(image_file):
 
 
 # Add background image (replace 'your_background_image.png' with your actual image path)
-add_bg_from_local('chuchi.avif')
+add_bg_from_local('gg.avif')
 
 
 
