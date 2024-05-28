@@ -222,7 +222,7 @@ def add_bg_from_local(image_file):
     }}
 
     .main {{  /* Added to target the main content area */
-        background-color: rgba(255, 255, 255, 0.5);  /* Semi-transparent white background */
+        background-color: rgba(255, 255, 255, 1);  /* Semi-transparent white background */
         padding: 20px;
         border-radius: 10px; /* Optional rounded corners */
         margin: 20px auto; /* Center the container horizontally */
