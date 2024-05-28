@@ -1,0 +1,8 @@
+google-api-python-client==1.12.11  # For YouTube Data API v3
+google-generativeai>=0.1.0  # For Google Gemini Pro 
+matplotlib==3.7.1  # For creating plots 
+pandas==2.0.1  # For data manipulation and analysis
+plotly==5.13.1  # For interactive charts
+python-dotenv==1.0.0  # For loading environment variables
+streamlit>=1.23.1  # Streamlit framework for the web app
+youtube-transcript-api==0.6.1  # For extracting transcripts
