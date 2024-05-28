@@ -1,4 +1,3 @@
-\
 
 Markdown
 # 📽️ TubeScope: Your YouTube Video Analysis Companion
