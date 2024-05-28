@@ -1,3 +1,13 @@
+Project Structure:
+
+youtube-video-analyzer/
+├── .env
+├── background_image.png 
+├── app.py
+├── README.md
+└── requirements.txt
+README.md:
+
 Markdown
 # 📽️ TubeScope: Your YouTube Video Analysis Companion
 
@@ -45,6 +55,15 @@ Bash
 pip install -r requirements.txt
 Use code with caution.
 content_copy
+Make sure you have these dependencies in the file
+
+ google-api-python-client
+ google-generativeai
+ matplotlib
+ pandas
+ plotly
+ python-dotenv
+ youtube-transcript-api
 Obtain & Set Up API Keys:
 
 Get API keys for Google Gemini Pro and YouTube Data API v3 from the Google Cloud Console.
@@ -69,12 +88,13 @@ This project is licensed under the MIT License.
 TubeScope is built using Streamlit, Google Gemini Pro, YouTube Data API v3, Plotly, and youtube-transcript-api.
 
 
-**Key Improvements:**
 
-- **Clearer Structure:** The README is organized into distinct sections with headers for better readability.
-- **Concise Language:** The descriptions are more concise and focus on the benefits of the app.
-- **Instructions:** Setup and usage instructions are more detailed and easy to follow.
-- **Acknowledgments:**  Credit is given to the libraries and APIs used.
-Conclusion
-By following these instructions, you should be able to set up and run the Streamlit app on your system. If you encounter any issues, please feel free to ask for further assistance. harshitmalhotra760@gmail.com Happy experimenting!
 
+**app.py (Your Streamlit App Code):**
+
+```python
+# ... (all the code for app.py as provided in the previous response)
+Key improvements in this version:
+
+README Enhancement: The README is now much more informative and user-friendly.
+Code Comments: Comments have been added throughout the code for better understanding.
