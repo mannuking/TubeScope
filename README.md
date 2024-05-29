@@ -16,6 +16,7 @@ Stay Ahead of the Competition: Analyze competitor videos to identify their stren
 Maximize Your Reach: Understand the factors that contribute to your video's reach and make data-driven decisions to attract a larger audience.
 
 ✨ Key Features
+
 AI-Powered Video Analysis: Leveraging Google's Gemini Pro, TubeScope offers in-depth analysis of transcripts and metadata.
 Quality Assessment: Receive an objective evaluation of your video's content, clarity, and production value.
 Engagement Factor Identification: Discover the elements in your video that resonate with viewers and keep them engaged.
@@ -23,7 +24,9 @@ Improvement Recommendations: Get personalized suggestions to enhance your video'
 Reach Potential Estimation: Understand the potential reach of your video based on its current performance and content.
 Interactive Reach Visualization: Explore the factors influencing your video's reach through visually appealing, interactive charts.
 Competitive Analysis: Compare your video's performance side-by-side with a competitor's video to uncover areas for growth.
+
 🛠️ Installation & Usage
+
 Clone the Repository:
 git clone [invalid URL removed]
 Use code with caution. content_copy Create a Virtual Environment:
