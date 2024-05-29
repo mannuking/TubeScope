@@ -6,6 +6,7 @@ Streamlit App
 TubeScope is your AI-powered toolkit for unlocking the full potential of your YouTube videos. By combining in-depth analysis with a user-friendly interface, TubeScope empowers you to create content that resonates with your audience and drives channel growth.
 
 🚀 Why TubeScope?
+
 Gain Deeper Insights: Go beyond basic metrics and uncover hidden patterns in your video's content and performance.
 
 Enhance Your Content: Receive tailored suggestions to improve video quality, engagement, and reach potential.
