@@ -71,27 +71,27 @@ def generate_analysis_prompt(transcript, video_details, competitor_details=None)
     """Creates a prompt for video analysis, optionally comparing to a competitor."""
     prompt = f"""Analyze the following YouTube video transcript and details to assess its quality and potential for viewer engagement:
 
-    **Video Title:** {video_details['title']}
-    **View Count:** {video_details['viewCount']}
+    *Video Title:* {video_details['title']}
+    *View Count:* {video_details['viewCount']}
     
-    **Transcript:**
+    *Transcript:*
     {transcript}
    
     Provide:
-    * **Quality Assessment:** Rate the overall quality of the video (Poor, Fair, Good, Excellent) based on content, clarity, and production value.
-    * **Engagement Factors:** Identify specific elements within the transcript or video details that contribute to viewer engagement (e.g., interesting topics, humor, visuals, etc.).
-    * **Improvement Suggestions:** Offer 2-3 suggestions on how the video could be improved."""
+    * *Quality Assessment:* Rate the overall quality of the video (Poor, Fair, Good, Excellent) based on content, clarity, and production value.
+    * *Engagement Factors:* Identify specific elements within the transcript or video details that contribute to viewer engagement (e.g., interesting topics, humor, visuals, etc.).
+    * *Improvement Suggestions:* Offer 2-3 suggestions on how the video could be improved."""
 
     if competitor_details:
         prompt += f"""
-        **Competitor Video Title:** {competitor_details['title']}
-        **Competitor View Count:** {competitor_details['viewCount']}
+        *Competitor Video Title:* {competitor_details['title']}
+        *Competitor View Count:* {competitor_details['viewCount']}
     
-        **Competitive Analysis:** Compare this video to the competitor video, highlighting strengths, weaknesses, and areas for improvement.
+        *Competitive Analysis:* Compare this video to the competitor video, highlighting strengths, weaknesses, and areas for improvement.
         """
 
     prompt += """
-    * **Estimated Reach Potential:** Predict the potential reach of the video (Low, Moderate, High) based on its current metrics and content.
+    * *Estimated Reach Potential:* Predict the potential reach of the video (Low, Moderate, High) based on its current metrics and content.
     """
     return prompt
 
@@ -222,7 +222,7 @@ def add_bg_from_local(image_file):
     }}
 
     .main {{  /* Added to target the main content area */
-        background-color: rgba(255, 255, 255, 0.3);  /* Semi-transparent white background */
+        background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent white background */
         padding: 20px;
         border-radius: 10px; /* Optional rounded corners */
         margin: 20px auto; /* Center the container horizontally */
@@ -247,7 +247,7 @@ add_bg_from_local('gg.avif')
 
 
 
-st.title("📽️ YouTube Video Analyzer ")
+st.title("📽 YouTube Video Analyzer ")
 
 st.markdown(
     """
